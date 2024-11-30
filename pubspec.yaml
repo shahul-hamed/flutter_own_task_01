@@ -41,6 +41,8 @@ dependencies:
   sqflite: ^2.0.0+3
   path_provider: ^2.0.10
   flutter_riverpod: ^2.6.1
+  geolocator: ^13.0.2
+  geocoding: ^3.0.0
 
 dev_dependencies:
   flutter_test:

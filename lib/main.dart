@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:own_task_01/features/battery_level/battery_level.dart';
+import 'package:own_task_01/features/home/home_page.dart';
 import 'package:own_task_01/features/posts/di/injenction.dart';
 import 'package:own_task_01/features/posts/presentation/screens/posts_screen.dart';
+
+import 'features/live_location/live_location_capture.dart';
 
 void main() {
   // setup();
@@ -22,7 +25,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  BatteryPage(),
+      home:  HomePage(),
     );
   }
 }
